@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "800531874242",
+    "project_id": "resid-pro",
+    "storage_bucket": "resid-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800531874242:android:2e08fcd6ac38dd91ca165b",
+        "android_client_info": {
+          "package_name": "com.residco.residpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8JQeZnkly3bbMdS0Fgu-E8VK7fKxO3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
