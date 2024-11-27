@@ -4,6 +4,7 @@ import 'package:resid_plus/service/socket_service.dart';
 import 'package:resid_plus/view/screen/add_residence/add_residence_controller/add_residence_controller.dart';
 import 'package:resid_plus/view/screen/auth/sign_in/sign_in_repo/sign_in_repo.dart';
 import 'package:resid_plus/view/screen/edit_profile/edit_profile_controller/edit_profile_controller.dart';
+import 'package:resid_plus/view/screen/profile/profile_controller/profile_controller.dart';
 import 'package:resid_plus/view/screen/wallet/wallet_controller/wallet_controller.dart';
 import 'package:resid_plus/view/screen/wallet/wallet_controller/wallet_repo.dart';
 import 'package:resid_plus/view/widgets/no_internet/no_internet_controller/no_internet_controller.dart';
