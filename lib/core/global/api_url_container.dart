@@ -1,6 +1,6 @@
 class ApiUrlContainer {
-  static const String baseUrl = "https://resid-plus.com/api/";
-  static const String socketUrl = "https://resid-plus.com";
+  // static const String baseUrl = "https://resid-plus.com/api/";
+  // static const String socketUrl = "https://resid-plus.com";
   //
   //  static const String baseUrl = "http://103.145.138.74:5000/api/";
   //  static const String socketUrl="http://103.145.138.74:5001";
@@ -8,6 +8,9 @@ class ApiUrlContainer {
    // static const String baseUrl = "http://192.168.10.176:3010/api/";
    // static const String socketUrl= "http://192.168.10.176:3020";
 
+
+  static const String baseUrl = "http://159.223.195.234:9010/api/";
+  static const String socketUrl="http://159.223.195.234:6003";
 
   //Auth
 

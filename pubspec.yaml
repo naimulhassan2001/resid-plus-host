@@ -34,7 +34,7 @@ dependencies:
   dotted_border: ^2.0.0+3
   flutter_rating_bar: ^4.0.1
   flutter_screenutil: ^5.9.0
-  flutter_slidable: ^3.0.0
+  flutter_slidable: ^4.0.0
   flutter_svg: ^2.0.7
   get: ^4.6.5
   google_fonts: ^5.1.0
@@ -46,11 +46,11 @@ dependencies:
   pin_code_fields: ^8.0.1
   shared_preferences: ^2.2.1
   syncfusion_flutter_datepicker: ^22.2.10
-  fluttertoast:
+  fluttertoast: ^8.2.12
   flutter_html: ^3.0.0-beta.2
   connectivity_plus: ^4.0.2
   get_storage:
-  flutter_local_notifications: ^17.2.3
+  flutter_local_notifications: ^18.0.1
   cached_network_image: ^3.3.0
   carousel_slider: ^5.0.0
   dots_indicator: ^3.0.0
@@ -61,7 +61,7 @@ dependencies:
   webview_flutter:
   firebase_core: ^3.8.1
   firebase_messaging: ^15.1.6
-  google_mobile_ads: ^1.0.0
+  google_mobile_ads: ^5.3.1
 
 dev_dependencies:
   flutter_test:
