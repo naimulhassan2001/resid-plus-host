@@ -69,5 +69,24 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneDelegateClassName</key>
+            <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+            <key>UISceneStoryboardFile</key>
+            <string></string> <!-- No storyboard needed -->
+          </dict>
+        </array>
+      </dict>
+    </dict>
+
+
+
+
 </dict>
 </plist>

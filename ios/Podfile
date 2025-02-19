@@ -1,4 +1,3 @@
-# Uncomment this line to define a global platform for your project
 platform :ios, '13.0'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
@@ -10,11 +9,7 @@ project 'Runner', {
   'Release' => :release,
 }
 
-
-
-
-
-
+# Helper method to find Flutter root
 def flutter_root
   generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
   unless File.exist?(generated_xcode_build_settings_path)
@@ -30,38 +25,29 @@ end
 
 require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
 
+# Set up Flutter iOS Pods
 flutter_ios_podfile_setup
 
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
+  # Firebase Pods
+  pod 'FirebaseCore', '11.4.0'
+  pod 'FirebaseMessaging', '11.4.0'
+  pod 'FirebaseCore', '11.4.0'  # Removed duplicate declaration
+  pod 'nanopb', '3.30910.0'
 
-
-    pod 'FirebaseCore', '11.4.0'
-    pod 'FirebaseMessaging', '11.4.0'
-    pod 'FirebaseCore'
-    pod 'FirebaseCore'
-    pod 'FirebaseMessaging'
-    pod 'FirebaseCore', '11.4.0'
-    pod 'nanopb', '3.30910.0'
-
-
-
-
-
-
-
-
-
-
-
+  # Add this to ensure Flutter dependencies are installed
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+
+  # RunnerTests target
   target 'RunnerTests' do
     inherit! :search_paths
   end
 end
 
+# Post-install hooks to apply build settings for iOS projects
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
